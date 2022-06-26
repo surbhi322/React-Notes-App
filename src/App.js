@@ -65,7 +65,8 @@ const App = () => {
 		setNotes(newNotes);
 	};
 
-	return (
+	return (<>
+		<nav><h1>Notes App</h1></nav>
 		<div className={`${darkMode && 'dark-mode'}`}>
 			<div className='container'>
 				<Header handleToggleDarkMode={setDarkMode} />
@@ -79,6 +80,8 @@ const App = () => {
 				/>
 			</div>
 		</div>
+		<footer><p>copyright 2022</p></footer>
+		</>
 	);
 };
 
