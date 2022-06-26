@@ -1,0 +1,32 @@
+nav {
+    height: 60px;
+    width: 100%;
+    margin: 0;
+    border-bottom: 1px solid grey;
+    display: grid;
+    place-items: center;
+    background-color: #67d7cc;
+  }
+  
+  nav h1 {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+    font-size: 38px;
+  }
+  footer {
+    height: 60px;
+    width: 100%;
+    margin: 0;
+    border-bottom: 1px solid grey;
+    display: grid;
+    place-items: center;
+    background-color: #121212;
+  }
+  
+footer p {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+    font-size: 17px;
+  }
